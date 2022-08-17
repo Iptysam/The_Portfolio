@@ -2,13 +2,10 @@
 
 # The Portfolio
 
-> Description the project.
- Create a mobile version Portfolio website using the Figma templates given by Microverse.
- Build the first 2 sections of the portfolio website
-
 ## Built With
 
 - HTML/CSS
+-Frameworks
 
 ## Live Demo (if available)
 
@@ -17,10 +14,7 @@
 
 ## Getting Started
 
-create a new repo "The Portfolio" 
-
-
-To get a local copy up and running follow these simple example steps.
+To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version.
 
 
 ## Authors
