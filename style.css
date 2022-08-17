@@ -1,9 +1,11 @@
 .headerbackground {
+  display: flex;
   position: absolute;
   width: 375px;
   height: 718px;
   left: 0;
   top: 0;
+  bottom: 20px;
   background: #fff;
 }
 
@@ -203,7 +205,7 @@
 
 .Me {
   /* Primary Text */
-  top: 290px;
+  top: 320px;
   left: 15px;
   width: 327px;
   height: 146px;
@@ -232,7 +234,7 @@
   position: absolute;
   width: 117px;
   height: 24px;
-  top: 430px;
+  top: 510px;
   left: 15px;
 
   /* Body / 2 - Bolder */
@@ -256,7 +258,7 @@
   position: absolute;
   left: 3.4%;
   right: 89.27%;
-  top: 57.81%;
+  top: 70.81%;
   bottom: 18.88%;
 }
 
@@ -270,7 +272,7 @@
   width: 20px;
   height: 20px;
   left: 60px;
-  top: 481px;
+  top: 587px;
 }
 
 .shape8:hover {
@@ -282,7 +284,7 @@
   position: absolute;
   left: 25.47%;
   right: 67.2%;
-  top: 57.95%;
+  top: 70.95%;
   bottom: 19.21%;
 }
 
@@ -295,7 +297,7 @@
   position: absolute;
   left: 36.13%;
   right: 57.07%;
-  top: 57.81%;
+  top: 70.81%;
   bottom: 18.88%;
 }
 
@@ -308,7 +310,7 @@
   position: absolute;
   left: 48%;
   right: 48.22%;
-  top: 57.81%;
+  top: 70.81%;
   bottom: 18.87%;
 }
 
@@ -322,7 +324,7 @@
   width: 24.14px;
   height: 12.07px;
   left: 285.76px;
-  top: 450.69px;
+  top: 530.69px;
   transform: rotate(-9deg);
 }
 
@@ -332,7 +334,7 @@
   width: 30.1px;
   height: 30.1px;
   left: 285.18px;
-  top: 465.34px;
+  top: 545.34px;
   transform: rotate(-10.1deg);
 }
 
@@ -342,7 +344,7 @@
   width: 20px;
   height: 20px;
   left: 180px;
-  top: 592.1px;
+  top: 752.1px;
 }
 
 .shape15 {
@@ -351,7 +353,7 @@
   width: 68.06px;
   height: 12.18px;
   left: 138.82px;
-  top: 589px;
+  top: 750px;
   transform: rotate(10.34deg);
 }
 
@@ -362,7 +364,7 @@
   width: 15px;
   height: 15px;
   left: 53px;
-  top: 570px;
+  top: 700px;
 
   /* Neutrals/N0 */
   border: 0 solid #cbcdff;
