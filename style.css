@@ -4,7 +4,7 @@
   height: 718px;
   left: 0;
   top: 0;
-  background: #ffffff;
+  background: #fff;
 }
 
 .header {
@@ -124,7 +124,7 @@
   top: 10px;
 
   /* Neutrals/N0 */
-  background: #ffffff;
+  background: #fff;
 
   /* Primary/B100 */
   border: 0 solid #cbcdff;
@@ -323,7 +323,7 @@
   height: 12.07px;
   left: 285.76px;
   top: 450.69px;
-  transform: rotate(-9.0deg);
+  transform: rotate(-9deg);
 }
 
 .shape13 {
