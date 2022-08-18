@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+  display: flex;
+  position: absolute;
+  width: 93.5%;
+  height: 718px;
+  left: 0;
+  top: 0;
+  bottom: 20px;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+}
+
+.Logo {
+  left: 12px;
+  top: 10px;
+  width: 76px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+}
+
+.Logo a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+.navlinks {
+  /* Icons/Icon - Menu */
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navitems {
+  position: absolute;
+  width: 16px;
+  height: 40px;
+  right: 33px;
+  top: 5px;
+}
+
+.vector1 {
+  list-style: none;
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 70.83%;
+  width: 26px;
+
+  /* Base / 300 - Tertiary */
+  border: 2px solid #7f8cff;
+  border-radius: 5px;
+}
+
+.vector1:hover {
+  background: none;
+}
+
+.vector2 {
+  list-style: none;
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 50%;
+  bottom: 50%;
+  width: 26px;
+
+  /* Base / 300 - Tertiary */
+  border: 2px solid #7f8cff;
+  border-radius: 5px;
+}
+
+.vector3 {
+  position: absolute;
+  list-style: none;
+  left: 16.67%;
+  right: 16.67%;
+  top: 70.83%;
+  bottom: 29.17%;
+  width: 26px;
+
+  /* Base / 300 - Tertiary */
+  border: 2px solid #7f8cff;
+  border-radius: 5px;
+}
+
+.vector2:hover {
+  background: none;
+}
+
+.vector3:hover {
+  background: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+}
+
+.background {
+  background-image: url(Images/header_shapesmobile.png);
+  margin-bottom: 0;
+  border-top-width: 10px;
+  margin-left: -24px;
+  margin-top: -90px;
+  height: 589px;
+  width: 375px;
+}
+
+.header2 {
+  position: absolute;
+
+  /* Body / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 52px;
+  color: #172b4d;
+
+  /* Primary Text */
+  top: 80px;
+  left: 15px;
+  width: 327px;
+  height: 150px;
+}
+
+.header2 h1 {
+  align-items: center;
+}
+
+.Me {
+  /* Primary Text */
+  top: 270px;
+  left: 24px;
+  width: 327px;
+  height: 146px;
+
+  /* Body / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.links {
+  /* LET’S CONNECT */
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 425px;
+  left: 24px;
+
+  /* Body / 2 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14.5px;
+  line-height: 24px;
+
+  /* Primary/B300 */
+  color: #7f8cff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.shape7 {
+  list-style: none;
+  position: absolute;
+  left: 6.4%;
+  right: 89.27%;
+  top: 56.81%;
+  bottom: 18.88%;
+}
+
+.shape7:hover {
+  background: none;
+}
+
+.shape8 {
+  list-style: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 65px;
+  top: 473px;
+}
+
+.shape8:hover {
+  background: none;
+}
+
+.shape9 {
+  list-style: none;
+  position: absolute;
+  left: 26.47%;
+  right: 67.2%;
+  top: 57.08%;
+  bottom: 19.21%;
+}
+
+.shape9:hover {
+  background: none;
+}
+
+.shape10 {
+  list-style: none;
+  position: absolute;
+  left: 36.13%;
+  right: 57.07%;
+  top: 56.81%;
+  bottom: 18.88%;
+}
+
+.shape10:hover {
+  background: none;
+}
+
+.shape11 {
+  list-style: none;
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 56.81%;
+  bottom: 18.87%;
+}
+
+.shape11:hover {
+  background: none;
+}
