@@ -595,16 +595,10 @@ li {
   border-radius: 16px;
 }
 
-.work2 {
-  margin-left: -15px;
-  margin-right: 25px;
-  margin-top: 2px;
-}
-
 .rect2 { 
   width: 295px;
   height: 220px;  
-  background: url(Images\SnapshootPortfolio3.png);
+  background: url(Images/SnapshootPortfolio3.png);
   background-position: 50% 50%;
   border-radius: 8px;
   background-size: cover;
@@ -846,11 +840,10 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  margin-top: 610px;
-  margin-bottom: 245px;
-  gap: 8px;
+  gap: 3px;
   width: 327px;
   height: 552px;
+  overflow: hidden;
     
   /* Neutrals/N0 */
   background: #FFFFFF;
@@ -858,30 +851,15 @@ li {
   /* Neutrals/N40 */
   border: 1px solid #DFE1E6;
   border-radius: 16px;
-    
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.work3 {
-  margin-left: -15px;
-  margin-right: 25px;
-  margin-top: 2px;
 }
 
 .rect3 {
-  list-style: none; 
   width: 295px;
   height: 220px;  
-  background: url(blog_drbl_4x.png);
+  background: url(Images/SnapshootPortfolio1.png);
+  background-position: 50% 50%;
+  background-size: cover;
   border-radius: 8px;
-    
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .Proj3 {
@@ -893,20 +871,15 @@ li {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin-top: -20px;
+  margin-top: -1px;
   /* or 138% */
 
   /* Neutrals/N800 */
   color: #172B4D;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .list3 {
-  margin-top: -40px;
+  margin-top: -30px;
   margin-left: 0px;
   margin-right: 90px;
 }
@@ -916,23 +889,18 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
 
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  list-style: none;
 }
 
 .text3 {
   /* Primary Text */
   width: 295px;
   height: 76px;
-  margin-top: -22px;
+  margin-top: 0;
 
   /* Body / 3 */
   font-family: 'Poppins';
@@ -944,11 +912,6 @@ li {
 
    /* Neutrals/N600 */
   color: #344563;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;  
 }
 
 .Lang2 {
@@ -957,17 +920,10 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 5px;
-  margin-top: -18px;
-  padding-right: 95px;
+  justify-content: flex-end;
   gap: 8px;
   width: 203px;
   height: 24px;
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
   list-style: none;
 }
   
@@ -1084,11 +1040,11 @@ li {
   padding-left: 8px;
   padding-right: 8px;
   gap: 10px;
-  position: absolute;
+  position: relative;
   width: 129px;
   height: 48px;
-  left: 44px;
-  top: 1660px;
+  left: -74px;
+  top: 0px;
   
   /* Primary/B400 */
   border: 1px solid #6070FF;
@@ -1110,7 +1066,7 @@ li {
 .button2 a {
 
   /* Button /Normal */  
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -1135,11 +1091,10 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  margin-top: -323px;
-  margin-bottom: 309px;
   gap: 8px;
   width: 327px;
   height: 552px;
+  overflow: hidden;
     
   /* Neutrals/N0 */  
   background: #FFFFFF;
@@ -1147,11 +1102,6 @@ li {
   /* Neutrals/N40 */
   border: 1px solid #DFE1E6;
   border-radius: 16px;
-    
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 div {
@@ -1165,16 +1115,12 @@ div {
 }
 
 .rect4 {
-  list-style: none; 
   width: 295px;
   height: 220px;  
-  background: url(blog_drbl_4x.png);
+  background: url(Images/SnapshootPortfolio2.png);
+  background-position: 50% 50%;
+  background-size: cover;
   border-radius: 8px;
-    
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .Proj4 {
@@ -1186,16 +1132,11 @@ div {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin-top: -12px;
+  margin-top: -1px;
   /* or 138% */
 
   /* Neutrals/N800 */
   color: #172B4D;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .list4 {
@@ -1213,12 +1154,6 @@ div {
   gap: 12px;
   width: 236px;
   height: 32px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  list-style: none;
 }
 
 .text4 {
@@ -1236,12 +1171,7 @@ div {
   /* or 160% */
 
    /* Neutrals/N600 */
-  color: #344563;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;  
+  color: #344563; 
 }
 
 .Lang3 {
@@ -1250,18 +1180,10 @@ div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 5px;
-  margin-top: -10px;
-  padding-right: 95px;
+  justify-content: flex-end;
   gap: 8px;
   width: 203px;
   height: 24px;
-  
-  /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  list-style: none;
 }
   
 .HTML3 {
@@ -1377,11 +1299,11 @@ div {
   padding-left: 8px;
   padding-right: 8px;
   gap: 10px;
-  position: absolute;
+  position: relative;
   width: 129px;
   height: 48px;
-  left: 44px;
-  top: 2310px;
+  left: -79px;
+  top: 0px;
   
   /* Primary/B400 */
   border: 1px solid #6070FF;
@@ -1428,7 +1350,7 @@ div {
   width: 375px;
   height: 1125.15px;
   left: calc(50% - 375px/2);
-  top: 3506px;
+  top: 0;
 }
 
 .header3 {
@@ -1436,9 +1358,10 @@ div {
   /* Primary Text */    
   width: 327px;
   height: 101px;
+  letter-spacing: 0;
     
   /* Header / 2 */  
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1449,12 +1372,7 @@ div {
   align-items: center;
     
   /* Neutrals/N800 */  
-  color: #172B4D;
-    
-  /* Inside auto layout */  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #172b4d;
 }
 
 .descrip {
@@ -1462,6 +1380,8 @@ div {
   /* Primary Text */
   width: 327px;
   height: 144px;
+  letter-spacing: 0;
+  margin-top: -107px;
 
   /* Body / 2 */
   font-family: 'Poppins';
@@ -1473,11 +1393,6 @@ div {
 
   /* Neutrals/N600 */
   color: #344563;
-
-/* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .links1 {
