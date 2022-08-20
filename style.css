@@ -1539,6 +1539,8 @@ div {
   background: #f7f7f9;
   border-radius: 8px;
   list-style: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .Java4 a {
@@ -1546,7 +1548,9 @@ div {
   height: 24px;
   left: 76px;
   right: 12px;
-  top: calc(50% - 24px/2 - 0.36px);
+  top: 20px;
+  white-space: nowrap;
+  letter-spacing: 0;
 
   /* Body / 3 - Bolder */
   font-family: 'Poppins', sans-serif;
@@ -1559,6 +1563,8 @@ div {
 
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
   /* Neutrals/N700 */
   color: #253858;
@@ -1644,7 +1650,7 @@ div {
   height: 48px;
   left: 12px;
   top: calc(50% - 48px/2 - 0.36px); 
-  background: url();
+  background: url(Images/Ellipse2.png);
   
   /* Neutrals/N0 */
   border: 1px solid #ffffff;
@@ -1656,7 +1662,7 @@ div {
   height: 48px;
   left: 12px;
   top: calc(50% - 48px/2 - 0.36px); 
-  background: url();
+  background: url(Images/Ellipse3.png);
   
   /* Neutrals/N0 */
   border: 1px solid #ffffff;
