@@ -17,7 +17,6 @@ body {
   flex-direction: column;
   width: 406px;
   height: 4500px;
-
 }
 
 .header {
@@ -136,7 +135,7 @@ li {
   position: relative;
   width: 375px;
   height: 604px;
-  left: 0px;
+  left: 0;
   top: 92px;
 }
 
@@ -540,11 +539,9 @@ li {
 }
 
 .button {
-  display: flex;
   width: 129px;
   height: 48px;
   flex-direction: row;
-  align-items: center;
   gap: 8px;
   position: relative;
   padding-bottom: 5px;
@@ -554,7 +551,6 @@ li {
   right: 75px;
   top: 10px;
   overflow: hidden;
-  text-decoration: none;
 
   /* Primary/B400 */
   border: 1px solid #6070ff;
@@ -795,7 +791,6 @@ li {
 }
 
 .button1 {
-  display: flex;
   flex-direction: row;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -838,7 +833,7 @@ li {
 .button1:active {
   background: #727ddf;
   box-shadow: 5px 5px blue;
-  transform: translateY(2px); 
+  transform: translateY(2px);
 }
 
 .container3 {
@@ -1055,7 +1050,7 @@ li {
   /* Primary/B400 */
   border: 1px solid #6070ff;
   border-radius: 8px;
-  
+
   /* Button /Normal */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -1348,7 +1343,7 @@ div {
   left: 0;
   top: 0;
   margin-left: -40px;
-  margin-top: -15px ;
+  margin-top: -15px;
 }
 
 .header3 {
@@ -1437,7 +1432,7 @@ div {
   position: relative;
   left: 2%;
   right: 78.22%;
-  top: 78.40%;
+  top: 78.4%;
   bottom: 18.87%;
 }
 
@@ -1446,7 +1441,7 @@ div {
   position: relative;
   left: 12%;
   right: 78.22%;
-  top: 78.40%;
+  top: 78.4%;
   bottom: 18.87%;
 }
 
@@ -1455,7 +1450,7 @@ div {
   position: relative;
   left: 70%;
   right: 78.22%;
-  top: 78.50%;
+  top: 78.5%;
   bottom: 18.87%;
 }
 
@@ -1464,7 +1459,7 @@ div {
   position: relative;
   left: 38%;
   right: 78.22%;
-  top: 78.40%;
+  top: 78.4%;
   bottom: 18.87%;
 }
 
@@ -1473,14 +1468,13 @@ div {
   position: relative;
   left: 8%;
   right: 78.22%;
-  top: 78.40%;
+  top: 78.4%;
   bottom: 18.87%;
 }
 
 .button4 {
-  width: 138px;
-  height: 24px;
   margin-top: -45px;
+
   /* Auto layout */
   flex-direction: row;
   padding: 12px;
@@ -1489,7 +1483,7 @@ div {
   height: 48px;
   overflow: hidden;
   margin-left: -130px;
-  
+
   /* Primary/B400 */
   border: 1px solid #6070ff;
   border-radius: 8px;
