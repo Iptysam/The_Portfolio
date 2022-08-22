@@ -405,10 +405,10 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
-  width: 203px;
-  height: 24px;
-  left: 0;
+  gap: 8.3px;
+  width: 203.4px;
+  height: 24.4px;
+  left: 0.5px;
 }
 
 .HTML {
