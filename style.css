@@ -1830,10 +1830,9 @@ div {
   height: 79%;
   position: absolute;
   top: 30px;
-  left: 0px;
+  left: 0;
   border-top-left-radius: 5rem;
   z-index: -1;
- 
 }
 
 .footer {
@@ -1843,7 +1842,6 @@ div {
   height: 850px;
   left: -15px;
   padding: 0;
-  top: 5000px;
   display: flex;
   flex-direction: column;
   z-index: 10;
@@ -1865,8 +1863,8 @@ div {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  /* or 130% */
 
+  /* or 130% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -1888,12 +1886,12 @@ div {
   font-weight: 300;
   font-size: 20px;
   line-height: 28px;
-  /* or 130% */
 
+  /* or 130% */
   text-align: center;
 
   /* Neutrals/N0 */
-  color: #FFFFFF;
+  color: #fff;
 }
 
 input[type=name] {
@@ -1961,7 +1959,6 @@ button:hover {
 }
 
 .btn {
-  
   /* Button /Normal */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
