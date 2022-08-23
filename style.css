@@ -1894,7 +1894,7 @@ div {
   color: #fff;
 }
 
-input[type=name] {
+input[type=text] {
   position: relative;
   width: 75%;
   border-radius: 8px;
