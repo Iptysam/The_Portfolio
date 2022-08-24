@@ -3513,10 +3513,11 @@ li {
   
 .descrip {
   /* Primary Text */
-  width: 327px;
-  height: 144px;
-  letter-spacing: 0;
-  margin-top: -107px;
+  width: 445px;
+  height: 102px;
+  position: relative;
+  top: -30px;
+  left: 142px;
 
   /* Body / 2 */
   font-family: 'Poppins', sans-serif;
@@ -3535,12 +3536,12 @@ li {
   /* LET’S CONNECT */
   width: 117px;
   height: 24px;
-  letter-spacing: 0;
-  margin-top: -30px;
+  top: -30px;
   white-space: nowrap;
   padding: 0;
   gap: 8px;
-  margin-left: -200px;
+  left: 142px;
+  position: relative;
 
   /* Body / 2 - Bolder */
   font-family: 'Poppins', sans-serif;
@@ -3558,8 +3559,8 @@ li {
 .images1 {
   padding-bottom: 6px;
   margin-bottom: 11px;
-  top: -55px;
-  left: -78px;
+  top: -65px;
+  left: 90px;
   right: 78px;
   margin-left: 3px;
   width: 200px;
@@ -3616,16 +3617,17 @@ li {
 }
   
 .button4 {
-  margin-top: -45px;
 
   /* Auto layout */
   flex-direction: row;
   padding: 12px;
   gap: 10px;
-  width: 162px;
-  height: 48px;
+  width: 138px;
+  height: 24px;
   overflow: hidden;
-  margin-left: -130px;
+  position: relative;
+  left: 142px;
+  top: -20px;
 
   /* Primary/B400 */
   border: 1px solid #6070ff;
@@ -3666,10 +3668,10 @@ li {
   align-items: center;
   padding: 0;
   position: relative;
-  width: 327px;
-  height: 464.15px;
-  top: -45px;
-  right: 6px;
+  width: 684px;
+  height: 360px;
+  top: -490px;
+  left: 614px;
 }
   
 .LANG {
@@ -3683,52 +3685,54 @@ li {
   position: relative;
 }
   
-  .LANG a {
-    /* Languages */
-    position: absolute;
-    height: 24px;
-    left: 0;
-    right: 78px;
-    top: 70px;
-  
-    /* Body / 1 - Bolder */
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-decoration: none;
-  
-    /* identical to box height, or 120% */
-    display: flex;
-    align-items: center;
-    color: #000;
-  }
+.LANG a {
+  /* Languages */
+  position: absolute;
+  height: 24px;
+  left: 0;
+  right: 78px;
+  top: 70px;
+
+  /* Body / 1 - Bolder */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  color: #344563;;
+}
   
   .Lang4 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 12px;
     gap: 12px;
-    width: 327px;
-    height: 248.15px;
+    width: 414px;
+    height: 144px;
     position: relative;
     top: -880px;
   }
   
   .Java4 {
-    width: 303px;
-    height: 66.72px;
+    top: 20px;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
-    position: relative;
     overflow: hidden;
+
   }
   
   .Java4 a {
     position: absolute;
+    width: 98px;
     height: 24px;
     left: 76px;
     right: 12px;
@@ -3756,8 +3760,8 @@ li {
   }
   
   .HTML4 {
-    width: 303px;
-    height: 66.72px;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
@@ -3793,8 +3797,8 @@ li {
   }
   
   .css4 {
-    width: 303px;
-    height: 66.72px;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
