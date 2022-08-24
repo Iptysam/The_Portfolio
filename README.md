@@ -6,14 +6,18 @@ To built this project you need to create files which mainly are index.html and s
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
 To update the index.html and style.css with the work section and About Myself section. 
 
-## Built With
+## :hammer: Built With
 
 - HTML/CSS
+- FIGMA GIT GITHUB
+- VISUAL STUDIO CODE
 
-## Live Demo (if available)
+## :blue_book: Learning Objectives
 
-[Live Demo Link](https://livedemo.com)
-
+- Understand how to parse a Figma design to create a UI.
+- Flexbox to place elements in the page.
+- Build a personal portfolio site.
+- Use images and backgrounds to enhance the look of the website.
 
 ## Getting Started
 
