@@ -4076,8 +4076,8 @@ input[type=email] {
   margin: 10px 0;
   height: 48px;
   padding: 0 1rem;
-  top: 170px;
-  left: 550px;
+  top: 240px;
+  left: 65px;
 }
 
 textarea {
@@ -4089,7 +4089,7 @@ textarea {
   margin-top: 8px;
   padding: 1rem;
   resize: none;
-  top: 170px;
+  top: 240px;
   left: 550px;
 }
 
@@ -4105,7 +4105,7 @@ button {
   flex-direction: row;
   position: relative;
   border-color: #fff;
-  top: 170px;
+  top: 230px;
   left: 700px;
 }
 
