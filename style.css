@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   body {
     display: flex;
     position: absolute;
@@ -10,7 +10,7 @@
     top: 0;
     bottom: 20px;
     background: #fff;
- }
+  }
 
   .main {
     display: flex;
@@ -18,7 +18,7 @@
     flex-direction: column;
     width: 406px;
     height: 4500px;
- }
+  }
 
   .header {
     display: flex;
@@ -27,7 +27,7 @@
     right: 0;
     top: 44px;
     bottom: 0;
- }
+  }
 
   .Logo {
     left: 12px;
@@ -2002,10 +2002,10 @@
   .handcursor {
     display: none;
   }
-  }
+}
 
 @media only screen and (min-width: 768px) {
-  /* for desktop version*/
+  /* for desktop version */
 
   body {
     width: 1440px;
@@ -3196,7 +3196,7 @@
   .button2:hover {
     background: none;
   }
-    
+
   .button2:active {
     background: #727ddf;
     box-shadow: 5px 5px blue;
@@ -4107,7 +4107,7 @@
   }
 
   button:hover {
-    background:#6070ff;
+    background: #6070ff;
   }
 
   .btn {
