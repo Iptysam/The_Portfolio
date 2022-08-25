@@ -4,7 +4,8 @@
 
 To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
-To update the index.html and style.css with the work section and About Myself section. 
+To update the index.html and style.css with the work section and About Myself section.
+To update the index.html and style.css with the contact form section
 
 ## :hammer: Built With
 
@@ -23,7 +24,8 @@ To update the index.html and style.css with the work section and About Myself se
 
 To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
-To update the index.html and style.css with the work section and About Myself section. 
+To update the index.html and style.css with the work section and About Myself section.
+To update the index.html and style.css with the contact form section
 
 
 ## Authors
