@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 @media only screen and (max-width:768px) {
-
   body {
     display: flex;
     position: absolute;
@@ -11,15 +10,15 @@
     top: 0;
     bottom: 20px;
     background: #fff;
-}
+ }
 
- .main {
+  .main {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 406px;
     height: 4500px;
-}
+ }
 
   .header {
     display: flex;
@@ -28,7 +27,7 @@
     right: 0;
     top: 44px;
     bottom: 0;
-  }
+ }
 
   .Logo {
     left: 12px;
@@ -2005,10 +2004,8 @@
   }
   }
 
-  @media only screen and (min-width: 768px) {
-    /* for desktop version*/
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@media only screen and (min-width: 768px) {
+  /* for desktop version*/
 
   body {
     width: 1440px;
@@ -2074,7 +2071,7 @@
   }
 
   .vector2 {
-  display: none;
+    display: none;
   }
 
   .vector3 {
@@ -2094,7 +2091,7 @@
     width: 259px;
     height: 40px;
     left: 1039px;
-    top: 16px;  
+    top: 16px;
   }
 
   .menu {
@@ -2103,7 +2100,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: right;
-    padding: 0px;
+    padding: 0;
     gap: 8px;
   }
 
@@ -2231,7 +2228,6 @@
   }
 
   .header2 {
-    
     /* Body / 2 */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -2251,7 +2247,7 @@
   }
 
   .header2 h1 {
-    align-items: center;   
+    align-items: center;
   }
 
   .Me {
@@ -2280,7 +2276,7 @@
     position: relative;
     width: 117px;
     height: 24px;
-    top: 260px ;
+    top: 260px;
     left: 260px;
     white-space: nowrap;
 
@@ -2299,7 +2295,7 @@
     width: 170.17px;
     height: 20px;
     position: relative;
-    left: 225px ;
+    left: 225px;
     top: 260px;
   }
 
@@ -2317,12 +2313,12 @@
   }
 
   .shape8 {
-  list-style: none;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 80px;
-  top: 10px;
+    list-style: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 80px;
+    top: 10px;
   }
 
   .shape8:hover {
@@ -2375,14 +2371,14 @@
     position: relative;
     width: 1440px;
     height: 4446px;
-    left: 0px;
+    left: 0;
     top: 916px;
   }
 
   .container1 {
     width: 1156px;
     height: 496px;
-    top: 0px;
+    top: 0;
     left: 180px;
     position: relative;
     border-radius: 24px;
@@ -2402,7 +2398,7 @@
   .left_block {
     display: flex;
     flex-direction: column;
-    padding: 24px;  
+    padding: 24px;
     position: relative;
     width: 544px;
     height: 445px;
@@ -2426,7 +2422,7 @@
     /* or 138% */
 
     /* Neutrals/N800 */
-    color: #091E42;
+    color: #091e42;
   }
 
   .list1 {
@@ -2453,7 +2449,6 @@
   }
 
   .text1 {
-
     /* Primary Text */
     width: 496px;
     height: 50px;
@@ -2472,8 +2467,7 @@
   }
 
   .Lang {
-
-  /* Auto layout */
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2679,7 +2673,7 @@
   .left_block1 {
     display: flex;
     flex-direction: column;
-    padding: 24px;  
+    padding: 24px;
     position: relative;
     width: 544px;
     height: 445px;
@@ -2703,7 +2697,7 @@
     /* or 138% */
 
     /* Neutrals/N800 */
-    color: #091E42;
+    color: #091e42;
   }
 
   .list2 {
@@ -2730,7 +2724,7 @@
   }
 
   .text2 {
-  /* Primary Text */
+    /* Primary Text */
     width: 496px;
     height: 50px;
 
@@ -2748,8 +2742,7 @@
   }
 
   .Lang1 {
-
-  /* Auto layout */
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2933,7 +2926,7 @@
   .container3 {
     width: 1156px;
     height: 496px;
-    top: 0px;
+    top: 0;
     left: 180px;
     position: relative;
     border-radius: 24px;
@@ -2954,7 +2947,7 @@
   .left_block2 {
     display: flex;
     flex-direction: column;
-    padding: 24px;  
+    padding: 24px;
     position: relative;
     width: 544px;
     height: 445px;
@@ -2978,7 +2971,7 @@
     /* or 138% */
 
     /* Neutrals/N800 */
-    color: #091E42;
+    color: #091e42;
   }
 
   .list3 {
@@ -3025,8 +3018,7 @@
   }
 
   .Lang2 {
-
-  /* Auto layout */
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3195,10 +3187,10 @@
     justify-content: center;
     text-align: center;
     letter-spacing: 0.03em;
-    background: #4053FC;
+    background: #4053fc;
 
     /* Button/1 */
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .button2:hover {
@@ -3224,7 +3216,7 @@
   .container4 {
     width: 1156px;
     height: 496px;
-    top: 0px;
+    top: 0;
     left: 180px;
     position: relative;
     border-radius: 24px;
@@ -3245,7 +3237,7 @@
   .left_block3 {
     display: flex;
     flex-direction: column;
-    padding: 24px;  
+    padding: 24px;
     position: relative;
     width: 544px;
     height: 445px;
@@ -3269,7 +3261,7 @@
     /* or 138% */
 
     /* Neutrals/N800 */
-    color: #091E42;
+    color: #091e42;
   }
 
   .list4 {
@@ -3314,7 +3306,7 @@
   }
 
   .Lang3 {
-  /* Auto layout */
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3523,7 +3515,7 @@
     align-items: center;
 
     /* Neutrals/N800 */
-    color: #091E42;
+    color: #091e42;
   }
 
   .descrip {
@@ -3719,7 +3711,7 @@
     /* identical to box height, or 120% */
     display: flex;
     align-items: center;
-    color: #344563;;
+    color: #344563;
   }
 
   .Lang4 {
@@ -3915,7 +3907,7 @@
     align-items: center;
     color: #344563;
   }
-    
+
   .SKILL {
     list-style: none;
     display: flex;
@@ -3974,7 +3966,7 @@
     width: 8px;
     list-style: none;
   }
-    
+
   .arr1:hover {
     background: none;
   }
@@ -4032,7 +4024,7 @@
     /* Neutrals/N0 */
     color: #fff;
   }
-    
+
   .info {
     position: absolute;
     width: 565px;
@@ -4053,7 +4045,7 @@
     /* Neutrals/N0 */
     color: #fff;
   }
-    
+
   input[type=text] {
     position: relative;
     width: 447px;
@@ -4113,11 +4105,11 @@
     background: #2230d2;
     color: #fff;
   }
-    
+
   button:hover {
     background:#6070ff;
   }
-    
+
   .btn {
     /* Button /Normal */
     font-family: 'Poppins', sans-serif;
@@ -4136,4 +4128,4 @@
     /* Primary/B400 */
     color: #6070ff;
   }
-  }
+}
