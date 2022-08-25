@@ -2011,7 +2011,8 @@
     width: 1440px;
     height: 5460px;
     background: #f4f5f7;
-    left: -8px;
+    left: -1px;
+    margin-left: 0;
     bottom: 0;
   }
 
@@ -2379,7 +2380,7 @@
     width: 1156px;
     height: 496px;
     top: 0;
-    left: 180px;
+    left: 139px;
     position: relative;
     border-radius: 24px;
     background: #fff;
@@ -2652,7 +2653,7 @@
     width: 1156px;
     height: 496px;
     top: 20px;
-    left: 180px;
+    left: 139px;
     position: relative;
     border-radius: 24px;
     background: #fff;
@@ -2927,7 +2928,7 @@
     width: 1156px;
     height: 496px;
     top: 0;
-    left: 180px;
+    left: 139px;
     position: relative;
     border-radius: 24px;
     background: #fff;
@@ -3217,7 +3218,7 @@
     width: 1156px;
     height: 496px;
     top: 0;
-    left: 180px;
+    left: 139px;
     position: relative;
     border-radius: 24px;
     background: #fff;
