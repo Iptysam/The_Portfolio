@@ -4,8 +4,8 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
-  height: 6000px;
-  left: 0;
+  height: 5657px;
+  left: -12px;
   top: 0;
   bottom: 20px;
   background: #fff;
@@ -149,6 +149,7 @@ li {
   width: 375px;
   position: relative;
   top: 35px;
+  left: 2px;
 }
 
 .header2 {
@@ -164,7 +165,7 @@ li {
 
   /* Primary Text */
   top: 80px;
-  left: 15px;
+  left: 19px;
   width: 327px;
   height: 150px;
 }
@@ -322,6 +323,8 @@ li {
   height: 552px;
   overflow: hidden;
   margin-right: 25px;
+  position: relative;
+  left: 13px;
 
   /* Neutrals/N0 */
   background: #fff;
@@ -594,6 +597,8 @@ li {
   height: 596px;
   overflow: hidden;
   margin-right: 26px;
+  position: relative;
+  left: 13px;
 
   /* Neutrals/N0 */
   background: #fff;
@@ -849,6 +854,8 @@ li {
   height: 552px;
   overflow: hidden;
   margin-right: 26px;
+  position: relative;
+  left: 13px;
 
   /* Neutrals/N0 */
   background: #fff;
@@ -1092,6 +1099,8 @@ li {
   height: 552px;
   overflow: hidden;
   margin-right: 26px;
+  position: relative;
+  left: 13px;
 
   /* Neutrals/N0 */
   background: #fff;
@@ -1340,10 +1349,11 @@ div {
   gap: 24px;
   width: 375px;
   height: 1125.15px;
-  left: 0;
+  left: 13px;
   top: 0;
   margin-left: -40px;
   margin-top: -15px;
+  position: relative;
 }
 
 .header3 {
@@ -1840,7 +1850,7 @@ div {
   top: 50px;
   width: 375px;
   height: 850px;
-  left: -13px;
+  left: -9px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -1950,12 +1960,13 @@ button {
 }
 
 button:focus {
-  background: #6070ff;
+  background: #2230D2;
   color: #fff;
 }
 
 button:hover {
-  background: blue;
+  background: #6070ff;
+  color: #fff;
 }
 
 .btn {
@@ -1975,4 +1986,5 @@ button:hover {
 
   /* Primary/B400 */
   color: #6070ff;
+  background: #fff;
 }
