@@ -4,6 +4,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 @media only screen and (max-width: 768px) {
   body {
     display: flex;
@@ -883,8 +884,8 @@ html {
   }
 
   .Proj3,
-  .list3, 
-  .frame2, 
+  .list3,
+  .frame2,
   .text3 {
     display: none;
   }
@@ -1921,27 +1922,28 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 295px;
     height: 288px;
 
   }
+
   .left_block1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 295px;
-    height: 332px;  
+    height: 332px;
   }
 
   .left_block2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 295px;
     height: 288px;
@@ -1951,7 +1953,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 295px;
     height: 332px;
@@ -2297,11 +2299,8 @@ html {
   }
 
   .headline {
-    /* position: absolute; */
     width: 1440px;
     height: 846px;
-    /* left: 0; */
-    /* top: 71px; */
   }
 
   .background {
@@ -2310,9 +2309,6 @@ html {
     background-size: cover;
     height: 721.46px;
     width: 1397px;
-    /* position: absolute; */
-    /* top: 119px; */
-    /* left: 34.6px; */
   }
 
   .header2 {
@@ -2327,12 +2323,6 @@ html {
     margin-top: -490px ;
     margin-left: 280px ;
     width: 580px;
-
-    /* Primary Text */
-    
-    /* left: 250px; */
-    /* top: -301px; */
-    /* position: relative; */
   }
 
   .header2 h1 {
@@ -2341,13 +2331,10 @@ html {
 
   .Me {
     /* Primary Text */
-    /* top: 280px; */
-    /* left: 260px; */
     width: 920px;
     height: 98px;
     margin-top: -50px ;
     margin-left: 275px ;
-    /* position: relative; */
 
     /* Body / 2 */
     font-family: 'Poppins', sans-serif;
@@ -2364,13 +2351,10 @@ html {
 
   .links {
     /* LET’S CONNECT */
-    /* position: relative; */
     width: 117px;
     height: 24px;
     margin-top: -20px;
     margin-left: 270px;
-    /* top: 260px; */
-    /* left: 260px; */
     white-space: nowrap;
 
     /* Body / 2 - Bolder */
@@ -2422,7 +2406,6 @@ html {
 
   .shape9 {
     list-style: none;
-    /* position: absolute; */
     left: 60.47%;
     right: 67.2%;
     top: 55.8%;
@@ -2435,7 +2418,6 @@ html {
 
   .shape10 {
     list-style: none;
-    /* position: absolute; */
     left: 80.13%;
     right: 57.07%;
     top: 56.81%;
@@ -2448,6 +2430,7 @@ html {
 
   .shape11 {
     list-style: none;
+
     /* position: absolute; */
     left: 105%;
     right: 48.22%;
@@ -2461,21 +2444,13 @@ html {
 
   .container {
     display: grid;
-    /* padding: 142px; */
     gap: 142px;
-    /* position: relative; */
     width: 1440px;
-    /* height: 4446px; */
-    /* left: 0; */
-    /* top: 916px; */
   }
 
   .container1 {
     width: 1156px;
     height: 496px;
-    /* top: 0; */
-    /* left: 139px; */
-    /* position: relative; */
     border-radius: 24px;
     margin-left: 135px;
     margin-top: 147px;
@@ -2749,7 +2724,9 @@ html {
     width: 1156px;
     height: 496px;
     /* top: 20px; */
+
     /* left: 139px; */
+
     /* position: relative; */
     border-radius: 24px;
     background: #fff;
@@ -3025,7 +3002,9 @@ html {
     width: 1156px;
     height: 496px;
     /* top: 0; */
+
     /* left: 139px; */
+
     /* position: relative; */
     border-radius: 24px;
     background: #fff;
@@ -3318,6 +3297,7 @@ html {
     top: 0;
     left: 139px;
     /* position: relative; */
+
     border-radius: 24px;
     background: #fff;
     margin-left: 135px;
@@ -3591,6 +3571,7 @@ html {
     width: 1440px;
     height: 924px;
     /* left: 1440px; */
+
     /* top: 4535px; */
     background-image: url(Images/aboutmyselfbackground.png);
   }
@@ -4080,19 +4061,21 @@ html {
     width: 1209px;
     height: 718px;
     position: relative;
-    top: 80px; 
-    left: 200px; 
-    right: 0px; 
+    top: 80px;
+    left: 200px;
+    right: 0;
     border-top-left-radius: 5rem;
     z-index: -1;
   }
 
   .footer {
     /* position: relative; */
+
     /* top: -145px; */
     width: 100.5%;
     height: 846px;
     margin-top: -140px;
+
     /* left: 1px; */
     display: flex;
     flex-direction: column;
@@ -4104,9 +4087,11 @@ html {
 
   .contact {
     /* position: relative; */
-    margin-top: -580px ;
+    margin-top: -580px;
     margin-left: 650px;
+
     /* left: 650px; */
+
     /* top: 100px; */
 
     /* Header / 2 */
@@ -4119,6 +4104,7 @@ html {
     /* or 130% */
     display: flex;
     align-items: center;
+
     /* align-content: end; */
     text-align: center;
 
@@ -4230,6 +4216,7 @@ html {
     /* Primary/B400 */
     color: #6070ff;
   }
+
   .Proj3a,
   .list1a,
   .text1a,
