@@ -1926,7 +1926,6 @@ html {
     gap: 12px;
     width: 295px;
     height: 288px;
-
   }
 
   .left_block1 {
@@ -2099,9 +2098,6 @@ html {
     background: #f4f5f7;
     margin: 0;
     padding: 0;
-    /* left: -1px; */
-    /* margin-left: 0; */
-    /* bottom: 0; */
   }
 
   .main {
@@ -2109,13 +2105,9 @@ html {
     align-items: center;
     flex-direction: column;
     width: 1440px;
-    /* height: 5355px; */
-    /* position: relative; */
-    /* top: 0; */
   }
 
   .header {
-    /* position: absolute; */
     width: 1440px;
     height: 72px;
     left: 21px;
@@ -2320,8 +2312,8 @@ html {
     line-height: 60px;
     letter-spacing: 0.37px;
     color: #091e42;
-    margin-top: -490px ;
-    margin-left: 280px ;
+    margin-top: -490px;
+    margin-left: 280px;
     width: 580px;
   }
 
@@ -2333,8 +2325,8 @@ html {
     /* Primary Text */
     width: 920px;
     height: 98px;
-    margin-top: -50px ;
-    margin-left: 275px ;
+    margin-top: -50px;
+    margin-left: 275px;
 
     /* Body / 2 */
     font-family: 'Poppins', sans-serif;
@@ -2373,14 +2365,10 @@ html {
     flex-direction: row;
     gap: 20px;
     margin-left: 237px;
-    /* position: relative; */
-    /* left: 225px; */
-    /* top: 260px; */
   }
 
   .shape7 {
     list-style: none;
-    /* position: absolute; */
     left: 17.4%;
     right: 80.27%;
     top: 56.81%;
@@ -2393,11 +2381,8 @@ html {
 
   .shape8 {
     list-style: none;
-    /* position: absolute; */
     width: 20px;
     height: 20px;
-    /* left: 80px; */
-    /* top: 10px; */
   }
 
   .shape8:hover {
@@ -2430,8 +2415,6 @@ html {
 
   .shape11 {
     list-style: none;
-
-    /* position: absolute; */
     left: 105%;
     right: 48.22%;
     top: 56.81%;
@@ -2723,11 +2706,6 @@ html {
   .container2 {
     width: 1156px;
     height: 496px;
-    /* top: 20px; */
-
-    /* left: 139px; */
-
-    /* position: relative; */
     border-radius: 24px;
     background: #fff;
     margin-left: 135px;
@@ -3001,11 +2979,6 @@ html {
   .container3 {
     width: 1156px;
     height: 496px;
-    /* top: 0; */
-
-    /* left: 139px; */
-
-    /* position: relative; */
     border-radius: 24px;
     background: #fff;
     margin-left: 135px;
@@ -3296,8 +3269,6 @@ html {
     height: 496px;
     top: 0;
     left: 139px;
-    /* position: relative; */
-
     border-radius: 24px;
     background: #fff;
     margin-left: 135px;
@@ -3570,9 +3541,6 @@ html {
   .container5 {
     width: 1440px;
     height: 924px;
-    /* left: 1440px; */
-
-    /* top: 4535px; */
     background-image: url(Images/aboutmyselfbackground.png);
   }
 
