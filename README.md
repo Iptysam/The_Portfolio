@@ -20,6 +20,9 @@ A desktop version update the index.html and style.css
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- Understand the and practice animation and transition well
+- Developing pair progaming skill
+-
 
 ## Getting Started
 

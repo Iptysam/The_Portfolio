@@ -2098,6 +2098,15 @@ html {
     background: #f4f5f7;
     margin: 0;
     padding: 0;
+    animation-name: example;
+    animation-duration: 2s;
+  }
+
+  @keyframes example {
+    0% { background-color: #f4f5f7; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
   }
 
   .main {
@@ -2293,6 +2302,7 @@ html {
   .headline {
     width: 1440px;
     height: 846px;
+    transform: width 2s, height 2s transform 2s;
   }
 
   .background {
@@ -2691,6 +2701,7 @@ html {
     justify-content: center;
     text-align: center;
     letter-spacing: 0.03em;
+    transform: translate(20px, 20px);
   }
 
   .button:hover {
