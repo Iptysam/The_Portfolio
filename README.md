@@ -4,7 +4,9 @@
 
 To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
-To update the index.html and style.css with the work section and About Myself section. 
+To update the index.html and style.css with the work section and About Myself section.
+To update the index.html and style.css with the contact form section
+A desktop version update the index.html and style.css
 
 ## :hammer: Built With
 
@@ -24,13 +26,14 @@ https://iptysam.github.io/The_Portfolio/
 - Use images and backgrounds to enhance the look of the website.
 - Understand the and practice animation and transition well
 - Developing pair progaming skill
--
 
 ## Getting Started
 
 To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
-To update the index.html and style.css with the work section and About Myself section. 
+To update the index.html and style.css with the work section and About Myself section.
+To update the index.html and style.css with the contact form section
+A desktop version update the index.html and style.css
 
 
 ## Authors
