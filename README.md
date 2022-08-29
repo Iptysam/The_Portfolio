@@ -14,7 +14,7 @@ A desktop version update the index.html and style.css
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE
 
-## Live 
+## [live demo](https://iptysam.github.io/The_Portfolio/)
 
 https://iptysam.github.io/The_Portfolio/
 
