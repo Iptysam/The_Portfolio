@@ -12,6 +12,10 @@ To update the index.html and style.css with the work section and About Myself se
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE
 
+## Live 
+
+https://iptysam.github.io/The_Portfolio/
+
 ## :blue_book: Learning Objectives
 
 - Understand how to parse a Figma design to create a UI.
