@@ -16,7 +16,6 @@ A desktop version update the index.html and style.css
 
 ## [live demo](https://iptysam.github.io/The_Portfolio/)
 
-https://iptysam.github.io/The_Portfolio/
 
 ## :blue_book: Learning Objectives
 
