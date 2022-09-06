@@ -21,7 +21,7 @@ html {
 
   .menu {
     background-color: hsla(234, 100%, 50%, 0.595);
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 5% 40px 20px 28px;
     position: absolute;
@@ -32,8 +32,8 @@ html {
     z-index: 3;
     height: 12%;
     width: 41%;
+    backdrop-filter: blur(10px);
   }
-
 
   .main {
     display: flex;
@@ -127,13 +127,9 @@ html {
   }
 
   .active {
-    display: none;
+    display: flex;
   }
   
-  .hide {
-    display: none;
-  }
-
   .close_btn {
     color: white;
     cursor: pointer;
