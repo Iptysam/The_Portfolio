@@ -8,12 +8,6 @@ function open() {
   Menu.classList.toggle('active');
 }
 
-/** function close() {
-    console.log('working');
-    hamburger.classList.remove('active');
-    Menu.classList.remove('active');
-} **/
-
 hamburger.addEventListener('click', open);
 closeBtn.addEventListener('click', open);
 navlinks.forEach((link) => {
