@@ -1,16 +1,19 @@
-const hamburger = document.querySelector(".hamburger");
-const Menu = document.querySelector(".menu");
-const navLink = document.querySelectorAll(".nav-link");
+const hamburger = document.querySelector('.hamburger');
+const Menu = document.querySelector('.menu');
+const navlinks = document.querySelectorAll(".nav-link");
+const closeBtn = document.querySelector(".close_btn");
 
-hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-function mobileMenu() {
-    hamburger.classList.toggle("active");
+
+function open() {
+    hamburger.classList.toggle('active');
     Menu.classList.toggle("active");
 }
 
-function closeMenu() {
-    hamburger.classList.remove("active");
-    Menu.classList.remove("active");
+function close() {
+    hamburger.classList.remove('active');
+    Menu.classList.remove('active');
 }
+
+hamburger.addEventListener("click", open);
+closeBtn.addEventListener("click", close);
