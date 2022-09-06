@@ -19,6 +19,22 @@ html {
     background: #fff;
   }
 
+  .menu {
+    background-color: hsla(234, 100%, 50%, 0.595);
+    display: flex;
+    flex-direction: column;
+    padding: 5% 40px 20px 28px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 3;
+    height: 12%;
+    width: 41%;
+  }
+
+
   .main {
     display: flex;
     align-items: center;
@@ -88,7 +104,8 @@ html {
   }
 
   .hamburger {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 5500px;
     margin-left: 130px;
     padding-bottom: 80px;
@@ -105,31 +122,58 @@ html {
     background-color: #7f8cff;
   }
 
-  .menu {
-    display: block;
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #6070FF;;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  li {
+    list-style: none;
   }
 
   .active {
     display: none;
   }
-
-  .menu.active {
-    left: 0;
+  
+  .hide {
+    display: none;
   }
 
+  .close_btn {
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 105%;
+  }
+  
+  .close_btn img:hover {
+    color: #6070FF;
+  }
 
   .menu-item {
-    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 2px;
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+
+  .nav-link {
+    width: 63px;
+    height: 20px;
+
+    /* Body / 3 - Bolder */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    /* Neutrals/N600 */
+    color: #fff; 
   }
 
   .headline {
@@ -2079,10 +2123,6 @@ html {
     color: #344563;
   }
 
-  .menu,
-  .portfolio,
-  .about,
-  .Contact,
   .handcursor {
     display: none;
   }
