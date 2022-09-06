@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
+@media only screen and (max-width: 767px) {
+
 html {
   margin: 0;
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+
   body {
     display: flex;
     position: absolute;
@@ -32,6 +34,13 @@ html {
     right: 0;
     top: 0;
     bottom: 0;
+  }
+
+  .navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
   }
 
   .Logo {
@@ -74,62 +83,49 @@ html {
     top: 5px;
   }
 
-  .vector1 {
-    list-style: none;
-    position: absolute;
-    left: 16.67%;
-    right: 16.67%;
-    top: 29.17%;
-    bottom: 70.83%;
-    width: 26px;
-
-    /* Base / 300 - Tertiary */
-    border: 2px solid #7f8cff;
-    border-radius: 5px;
-  }
-
-  .vector1:hover {
-    background: none;
-  }
-
-  .vector2 {
-    list-style: none;
-    position: absolute;
-    left: 16.67%;
-    right: 16.67%;
-    top: 50%;
-    bottom: 50%;
-    width: 26px;
-
-    /* Base / 300 - Tertiary */
-    border: 2px solid #7f8cff;
-    border-radius: 5px;
-  }
-
-  .vector3 {
-    position: absolute;
-    list-style: none;
-    left: 16.67%;
-    right: 16.67%;
-    top: 70.83%;
-    bottom: 29.17%;
-    width: 26px;
-
-    /* Base / 300 - Tertiary */
-    border: 2px solid #7f8cff;
-    border-radius: 5px;
-  }
-
-  .vector2:hover {
-    background: none;
-  }
-
-  .vector3:hover {
-    background: none;
-  }
-
   li {
     text-align: -webkit-match-parent;
+  }
+
+  .hamburger {
+    display: block;
+    margin-bottom: 5500px;
+    margin-left: 130px;
+    padding-bottom: 80px;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    margin-left: 200px;
+    background-color: #7f8cff;
+  }
+
+  .menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #6070FF;;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+
+  .menu-item {
+    margin: 2.5rem 0;
   }
 
   .headline {
@@ -2079,40 +2075,7 @@ html {
     color: #344563;
   }
 
-  .closeIcon {
-    display: none;
-  }
-
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
-  }
-
-  .showMenu {
-    transform: translateY(0);
-  }
-
-  .hamnav label { 
-    display: inline-block;
-    color: #7f8cff; 
-    border-radius: 2px;
-    background: white;
-    font-style: normal;
-    font-size: 1.2em;
-    padding: 10px;
-  }
-
-  .navmenu,
+  .menu,
   .portfolio,
   .about,
   .Contact,
@@ -2226,7 +2189,7 @@ html {
     gap: 8px;
   }
 
-  .portfolio {
+  .menu-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2238,75 +2201,9 @@ html {
     position: relative;
   }
 
-  .portfolio a {
+  .nav-link {
     /* Portoflio */
     width: 63px;
-    height: 20px;
-
-    /* Body / 3 - Bolder */
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-
-    /* identical to box height, or 133% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-
-    /* Neutrals/N600 */
-    color: #344563;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
-    width: 70px;
-    height: 40px;
-    list-style: none;
-  }
-
-  .about a {
-    /* about */
-    width: 46px;
-    height: 20px;
-
-    /* Body / 3 - Bolder */
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-
-    /* identical to box height, or 133% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* Neutrals/N600 */
-    color: #344563;
-  }
-
-  .Contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
-    width: 86px;
-    height: 40px;
-    list-style: none;
-  }
-
-  .Contact a {
-    /* Contact */
-    width: 62px;
     height: 20px;
 
     /* Body / 3 - Bolder */
