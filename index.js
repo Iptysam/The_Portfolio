@@ -8,8 +8,7 @@ function open() {
   Menu.classList.toggle('active');
 }
 
-/**
-function close() {
+/** function close() {
     console.log('working');
     hamburger.classList.remove('active');
     Menu.classList.remove('active');
@@ -18,5 +17,5 @@ function close() {
 hamburger.addEventListener('click', open);
 closeBtn.addEventListener('click', open);
 navlinks.forEach((link) => {
-link.addEventListener('click', open);
-  });
+  link.addEventListener('click', open);
+});
