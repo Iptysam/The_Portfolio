@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 @media only screen and (max-width: 767px) {
-
-html {
-  margin: 0;
-  padding: 0;
-}
-
-
+  html {
+    margin: 0;
+    padding: 0;
+  }
   body {
     display: flex;
     position: absolute;
@@ -25,10 +22,10 @@ html {
     flex-direction: column;
     padding: 5% 40px 20px 28px;
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     z-index: 3;
     height: 12%;
     width: 100%;
@@ -100,7 +97,8 @@ html {
   }
 
   li {
-    text-align: -webkit-match-parent;
+    text-align: match-parent;
+    list-style: none;
   }
 
   .hamburger {
@@ -122,23 +120,19 @@ html {
     background-color: #7f8cff;
   }
 
-  li {
-    list-style: none;
-  }
-
   .active {
     display: flex;
   }
-  
+
   .close_btn {
     color: white;
     cursor: pointer;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-left: 105%;
   }
-  
+
   .close_btn img:hover {
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .menu-item {
@@ -169,7 +163,7 @@ html {
     text-decoration: none;
 
     /* Neutrals/N600 */
-    color: #fff; 
+    color: #fff;
   }
 
   .headline {
@@ -2264,14 +2258,13 @@ html {
   }
 
   li {
-    text-align: -webkit-match-parent;
-    display: l;
+    text-align: match-parent;
   }
 
   .headline {
     width: 1440px;
     height: 846px;
-    transform: width 2s, height 2s transform 2s;
+    transform: width 2s, height 2s ;
   }
 
   .background {
