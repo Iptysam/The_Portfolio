@@ -26,14 +26,14 @@
     display: none;
     flex-direction: column;
     padding: 5% 40px 20px 28px;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: 3;
-    height: 70%;
-    width: 37%;
+    height: 12%;
+    width: 45%;
     backdrop-filter: blur(10px);
   }
 
