@@ -33,7 +33,7 @@
     bottom: 0;
     z-index: 3;
     height: 70%;
-    width:37%;
+    width: 37%;
     backdrop-filter: blur(10px);
   }
 
@@ -2269,7 +2269,6 @@
   .headline {
     width: 1440px;
     height: 846px;
-    transition: width 2s, height 2s transform 2s;
   }
 
   .background {
