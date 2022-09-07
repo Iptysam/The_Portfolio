@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   
     <header class="header">
-        <p class="Logo"><a href="#">My Logo</a></p>
-
-        <nav class="navlinks">
-            <ul class="navitems">
-                <li class="vector1"><a href="#"></a></li>
-                <li class="vector2"><a href="#"></a></li>
-                <li class="vector3"><a href="#"></a></li>
-            </ul>
-        </nav>    
-        <nav class="navmenu">  
+        
+        <nav class="navmenu"> 
+            <p class="Logo"><a href="#">My Logo</a></p>  
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <ul class="menu">
-                <li class="portfolio"><a href="#">Portfolio</a></li>
-                <li class="about"><a href="#">About</a></li>
-                <li class="Contact"><a href="#">Contact</a></li>
-            </ul>
+                <li class="close_btn"><img src="Images/close-btn.svg" alt="close-btn"></li>
+                <li class="menu-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="menu-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="menu-item"><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>        
         </nav>
     </header>
 
@@ -42,7 +41,7 @@
                 <li class="shape11"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>
             </ul>
         </div>
-        <section class="container">
+        <section class="container" id="portfolio">
             <div class="container1">
                 <div class="rect1"></div>
                 <div class="left_block">
@@ -125,7 +124,7 @@
                 <a href="#" class="button3">See Project</a>
                 </div>
             </div>
-            <section class="container5">
+            <section class="container5" id="about">
                 <h6 class="header3">About Myself</h6>
                 <p class="descrip">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <header class="links1">LET’S CONNECT</header>
@@ -157,7 +156,7 @@
                 </div>
                  
             </section>
-            <footer class="footer">
+            <footer class="footer" id="Contact">
                 <h2 class="contact">Contact me</h2>
                 <p class="info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                 <form action="https://formspree.io/f/xdojkzjb" method="POST">
@@ -168,6 +167,8 @@
                 </form>
             </footer>
         </section>
-    </section>    
+    </section>
+    <script src="index.js"></script>    
 </body>
+ 
 </html>

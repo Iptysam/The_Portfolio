@@ -6,11 +6,11 @@ To built this project you need to create files which mainly are index.html and s
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
 To update the index.html and style.css with the work section and About Myself section.
 To update the index.html and style.css with the contact form section
-A desktop version update the index.html and style.css
+A desktop version update the index.html, style.css and index.js.
 
 ## :hammer: Built With
 
-- HTML/CSS
+- HTML/CSS/Java script
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE
 
