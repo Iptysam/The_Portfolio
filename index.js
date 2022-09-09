@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger');
 const Menu = document.querySelector('.menu');
 const navlinks = document.querySelectorAll('.nav-link');
 const closeBtn = document.querySelector('.close_btn');
+const body = document.querySelector('.main');
 
 function open() {
   hamburger.classList.toggle('active');
@@ -17,9 +18,9 @@ navlinks.forEach((link) => {
 const allCards = [{
   id: 'card1',
   title: 'Tonic',
-  feature: ['Canopy', 'Back End Dev', 2015],
-  sdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy',
-  ldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  feature: 'Images/Frame2.png',
+  sdescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  ldescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   liveLink: 'https://iptysam.github.io/The_Portfolio/',
   cardImage: 'Images/SnapshootPortfolio.png',
   dotImg: 'Images/Counter.png',
@@ -30,9 +31,9 @@ const allCards = [{
 {
   id: 'card2',
   title: 'Multi-Post Stories',
-  feature: ['Canopy', 'Back End Dev', 2015],
-  sdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy',
-  ldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  feature: 'Images/Frame2.png',
+  sdescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  ldescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   liveLink: 'https://iptysam.github.io/The_Portfolio/',
   cardImage: 'Images/SnapshootPortfolio3.png',
   dotImg: 'Images/Counter.png',
@@ -43,9 +44,9 @@ const allCards = [{
 {
   id: 'card3',
   title: 'Tonic',
-  feature: ['Canopy', 'Back End Dev', 2015],
-  sdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy',
-  ldescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  feature: 'Images/Frame2.png',
+  sdescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  ldescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   liveLink: 'https://iptysam.github.io/The_Portfolio/',
   cardImage: 'Images/SnapshootPortfolio1.png',
   dotImg: 'Images/Counter.png',
@@ -56,12 +57,11 @@ const allCards = [{
 {
   id: 'card4',
   title: 'Multi-post Stories',
-  feature: ['Canopy', 'Back End Dev', 2015],
-  sdescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy',
+  feature: 'Images/Frame2.png',
+  sdescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
   ldescrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   liveLink: 'https://iptysam.github.io/The_Portfolio/',
   cardImage: 'Images/SnapshootPortfolio2.png',
-  dotImg: 'Images/Counter.png',
   btags: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstraps'],
   stags: ['html', 'css', 'javascript'],
   class: 'container4',
@@ -75,11 +75,7 @@ allCards.forEach((card) => {
   <img src="${card.cardImage}" alt="snaphot" class="p-img">
   <div>
     <h2>${card.title}</h2>
-    <h5>${card.feature[0]}</h5>
-    <img src="${card.dotImg}" alt="counter">
-    <h5 class="sec">${card.feature[1]}</h5>
-    <img src="${card.dotImg}" alt="counter">
-    <h5 class="sec">${card.feature[2]}</h5>  
+    <img src="${card.feature}" alt="counter">  
     <p>
     A daily selection of privately personalized reads; no accounts or sign-ups required.
     </p>
@@ -88,7 +84,7 @@ allCards.forEach((card) => {
       <li>css</li>
       <li>javascript</li>
     </ul>
-    <a href="#" class="button proj"><h4>See Project</h4></a>
+    <button class="button proj">See Project</button>
   </div> 
 </div>`;
 });
@@ -96,33 +92,30 @@ allCards.forEach((card) => {
 const popUp = (i) => `
 <section class="modal">
   <div class="modal-1">
-    <h2 class="title">${projects[i].title}</h2>
-    <button class="closebutton"><img src="Images/close-btn.svg"></button>
+    <h2 class="title">${allCards[i].title}</h2>
+    <button class="closebutton"><img src="Images/Icon.svg"></button>
   </div>
   <div class="u-li">
-    <h5>${allCards[i].feature[0]}</h5>
-    <img src="${allCards[i].dotImg}" alt="dot">
-    <h5 class="sec">${allCards[i].feature[1]}</h5>
-    <img src="${allCards[i].dotImg}" alt="dot">
-    <h5 class="sec"${allCards[i].feature[2]}</h5>  
+    <img src="${allCards[i].feature}" alt="dot">  
   </div>
-  <img src="${allCards[i].cardImage}" alt="Image class="popupImg">
-  <div>
-    <p>${allCards[i].ldescrip}</p>
+  <img src="${allCards[i].cardImage}" alt="Image" class="popupImg">
+  <div class="modal-div">
+    <p class="long">${allCards[i].ldescrip}</p>
+    <p class="short">${allCards[i].sdescrip}</p>
     <div>
       <ul class="lang-list">
-        <li>${allCards[i].stags[0]}</li>
-        <li>${allCards[i].stags[1]}</li>
-        <li>${allCards[i].stags[2]}</li>
+        <li class="lists">${allCards[i].stags[0]}</li>
+        <li class="lists">${allCards[i].stags[1]}</li>
+        <li class="lists">${allCards[i].stags[2]}</li>
       </ul>
       <ul class="lang-list">
         <li>${allCards[i].btags[3]}</li>
         <li>${allCards[i].btags[4]}</li>
         <li>${allCards[i].btags[5]}</li>
       </ul>
-      <div>
-        <a href="#" class="button"><h4>See live</h4></a>
-        <a href="#" class="button"><h4>See source</h4></a>
+      <div class= "tabs">
+        <button class="button"><a href="${allCards[i].liveLink}">See live</a><img src="Images/Icon2.png" alt="icon" class="liveicon"></button>
+        <button class="button">See source<img src="Images/Vector(1).jpg" alt="icon" class="liveicon"></button>
       </div>
     </div>
   </div>
@@ -141,7 +134,7 @@ for (let i = 0; i < seeProject.length; i += 1) {
     function pClose() {
       document.body.removeChild(mainHolder);
       body.classList.toggle('blur');
-      document.body.style.overflow = 'visible';
+     document.body.style.overflow = 'visible';
     }
     const closepop = document.querySelector('.closebutton');
     closepop.addEventListener('click', pClose);
