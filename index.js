@@ -101,7 +101,6 @@ const popUp = (i) => `
   <img src="${allCards[i].cardImage}" alt="Image" class="popupImg">
   <div class="modal-div">
     <p class="long">${allCards[i].ldescrip}</p>
-    <p class="short">${allCards[i].sdescrip}</p>
     <div>
       <ul class="lang-list">
         <li class="lists">${allCards[i].stags[0]}</li>
