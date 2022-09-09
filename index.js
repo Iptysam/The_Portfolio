@@ -66,7 +66,7 @@ const allCards = [{
   stags: ['html', 'css', 'javascript'],
   class: 'container4',
 },
-]
+];
 
 const cardsEl = document.querySelector('.container');
 allCards.forEach((card) => {
@@ -134,7 +134,7 @@ for (let i = 0; i < seeProject.length; i += 1) {
     function pClose() {
       document.body.removeChild(mainHolder);
       body.classList.toggle('blur');
-     document.body.style.overflow = 'visible';
+      document.body.style.overflow = 'visible';
     }
     const closepop = document.querySelector('.closebutton');
     closepop.addEventListener('click', pClose);
