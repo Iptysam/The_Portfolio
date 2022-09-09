@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <ul class="menu">
+        <li class="close_btn"><img src="Images/close-btn.svg" alt="close-btn"></li>
+        <li class="menu-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li class="menu-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="menu-item"><a href="#Contact" class="nav-link">Contact</a></li>
+    </ul>
    
     <header class="header">
-        
         <nav class="navmenu"> 
             <p class="Logo"><a href="#">My Logo</a></p>  
             <div class="hamburger">
@@ -17,81 +22,82 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="menu">
-                <li class="close_btn"><img src="Images/close-btn.svg" alt="close-btn"></li>
-                <li class="menu-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li class="menu-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="menu-item"><a href="#Contact" class="nav-link">Contact</a></li>
-            </ul>        
+            <ul class="navlist">
+                <li><a href="#portfolio"> Porfolio</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#Contact"> Contact</a></li>
+            </ul>
+                 
         </nav>
     </header>
 
     <section class="main">   
         <div class="headline">
-            <div class="background"></div>
-
             <h1 class="header2">I’m Iptisam  Glad to see you!</h1>
             <p class="Me">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <header class="links">LET’S CONNECT</header>
             <ul class="images">
-                <li class="shape7"><a href="#"><img src="Images/Vector.jpg" alt="shape"></a></li>
-                <li class="shape8"><a href="#"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
-                <li class="shape9"><a href="#"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
-                <li class="shape10"><a href="#"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
-                <li class="shape11"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>
+                <li class="icon"><a href="#"><img src="Images/Vector.jpg" alt="shape"></a></li>
+                <li class="icon"><a href="#"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
+                <li class="icon"><a href="#"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
+                <li class="icon"><a href="#"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
+                <li class="icon"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>
             </ul>
         </div>
 
-            <section class="container" id="portfolio">
-                    <div class="modal-card" id="modal">
-                    </div>
-            </section>
-
-            <section class="container5" id="about">
-                <h6 class="header3">About Myself</h6>
-                <p class="descrip">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <header class="links1">LET’S CONNECT</header>
-                <ul class="images1">
-                    <li class="shape12"><a href="#"><img src="Images/Vector.jpg" alt="shape"></a></li>
-                    <li class="shape17"><a href="#"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
-                    <li class="shape18"><a href="#"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
-                    <li class="shape19"><a href="#"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
-                    <li class="shape16"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>  
-                </ul>
-                <a href="#" class="button4">Get my resume</a>
-                <div class="About">
-                    <ul>
-                        <li class="LANG"><a href="#">Languages</a></li>
-                        <li class="arr1"><a href="#"><img src="Images/Icon.png" alt="arrow"></a></li>
-                        <li class="FRAME"><a href="#">Frameworks</a></li>
-                        <li class="arr2"><a href="#"><img src="Images/Icon1.png" alt="arrow"></a></li>
-                        <li class="SKILL"><a href="#">Skills</a></li>
-                        <li class="arr3"><a href="#"><img src="Images/Icon1.png" alt="arrow"></a></li>
-                    </ul>
-                    <ul class="Lang4">
-                        <li class="Java4"><a href="#">Javascript</a></li>
-                        <li class="HTML4"><a href="#">HTML</a></li>
-                        <li class="css4"><a href="#">CSS</a></li>
-                    </ul> 
-                    <div class="shape13"></div>
-                    <div class="shape14"></div>
-                    <div class="shape15"></div>
+        <section class="container" id="portfolio">
+                <div class="modal-card" id="modal">
                 </div>
-                 
-            </section>
-            <footer class="footer" id="Contact">
-                <h2 class="contact">Contact me</h2>
-                <p class="info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                <form action="https://formspree.io/f/xdojkzjb" method="POST">
-                    <input type="text" name="name" maxlength="30" placeholder="Iptisam Dawood" required>
-                    <input type="email" name="email" placeholder="mukadamiptisam@gmail.com" required>
-                    <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-                    <button class="btn" type="submit">Get it Touch</button>
-                </form>
-            </footer>
+        </section>
+
+        <section class="container1" id="about">
+            <div class="about-me">
+                <div class="">
+                    <h6 class="header3">About Myself</h6>
+                    <p class="descrip">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    <header class="links1">LET’S CONNECT</header>
+                    <ul class="images1">
+                        <li class="icon"><a href="#"><img src="Images/Vector.jpg" alt="shape"></a></li>
+                        <li class="icon"><a href="#"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
+                        <li class="icon"><a href="#"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
+                        <li class="icon"><a href="#"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
+                        <li class="icon"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>  
+                    </ul>
+                    <button class="button">Get my resume</button>
+                </div>
+                <div class="About">
+                    <ul class="languages">
+                        <li class="lang-item">
+                            <div class="open">
+                            <span>Languages</span>
+                            <img src="Images/Icon.png" alt="arrow">
+                            </div>
+                            <ul class="box">
+                            <li class="lang-child"><img src="Images/Ellipse1.png" alt="jsicon">JavaScript</li>
+                            <li class="lang-child"><img src="Images/Ellipse2.png" alt="htmlicon">HTML</li>
+                            <li class="lang-child"><img src="Images/Ellipse3.png" alt="cssicon">CSS</li>
+                            </ul>
+                        </li>
+                        <li class="lang-itemz"><span>Frameworks</span><img src="Images/Icon1.png" alt="arrow"></li>
+                        <li class="lang-itemz"><span>Skills</span><img src="Images/Icon1.png" alt="arrow"></li>
+                        </ul> 
+                </div>
+            </div>   
         </section>
     </section>
-    <script src="index.js"></script>    
+    <footer>
+        <form action="https://formspree.io/f/xdojkzjb" method="POST">
+            <div class="Form" id="Contact">
+            <h2 class="contact">Contact me</h2>
+            <p class="info">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            <input type="text" name="name" maxlength="30" placeholder="Iptisam Dawood" required>
+            <input type="email" name="email" placeholder="mukadamiptisam@gmail.com" required>
+            <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+            <button class="btn" type="submit">Get it Touch</button>
+            </div>
+        </form>
+    </footer>
+<script src="index.js"></script>    
 </body>
  
 </html>
