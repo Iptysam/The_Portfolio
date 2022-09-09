@@ -141,7 +141,8 @@ nav {
   color: #6070ff;
 }
 
-.navlist, .navlist a {
+.navlist,
+.navlist a {
   display: none;
 }
 
@@ -690,8 +691,6 @@ form button {
 
   .navlist a {
     margin-right: 32px;
-
-     /* Body / 3 - Bolder */
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -709,10 +708,10 @@ form button {
   }
 
   .navlink,
-  .bar, 
-  .hamburger, 
-  .menu, 
-  .menu-item, 
+  .bar,
+  .hamburger,
+  .menu,
+  .menu-item,
   .close_btn {
     display: none;
   }
@@ -992,7 +991,7 @@ form button {
     margin-bottom: 20px;
     padding-top: 15px;
   }
-  
+
   form textarea::placeholder {
     color: #b3bac5;
   }
@@ -1007,15 +1006,6 @@ form button {
     flex-direction: row;
   }
 
-  button:focus {
-    background: #2230d2;
-    color: #fff;
-  }
-
-  button:hover {
-    background: #6070ff;
-  }
-
   form button {
     align-self: center;
     font-size: 17px;
@@ -1027,6 +1017,15 @@ form button {
     background: white;
     margin-left: -5px;
     margin-top: -5px;
+  }
+
+  button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  button:hover {
+    background: #6070ff;
   }
 
   .btn {
