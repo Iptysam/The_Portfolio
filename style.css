@@ -620,8 +620,9 @@ form button {
 
   div .lang-list {
     display: flex;
-    
+
     /* margin-left: 70px; */
+
     /* justify-content: flex-end; */
   }
 
