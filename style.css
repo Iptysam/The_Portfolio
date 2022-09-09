@@ -303,18 +303,7 @@ form p {
 .u-li {
   display: flex;
   list-style: none;
-}
-
-.u-li h5 {
-  display: flex;
-  font-size: 13px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.sec {
-  color: #7a869ae7;
-  display: flex;
+  margin-top: -10px;
 }
 
 button {
