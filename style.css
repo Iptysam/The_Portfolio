@@ -77,17 +77,6 @@ div .lang-list {
   color: #6070ff;
 }
 
-.short {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  width: 90%;
-}
-
-.long {
-  display: none;
-}
-
 .button a {
   text-decoration: none;
   color: #6070ff;
@@ -619,7 +608,8 @@ form button {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    width: 70%;
+
+    /* width: 90%; */
   }
 
   .modal-div {
@@ -630,7 +620,9 @@ form button {
 
   div .lang-list {
     display: flex;
-    justify-content: flex-end;
+    
+    /* margin-left: 70px; */
+    /* justify-content: flex-end; */
   }
 
   li {
