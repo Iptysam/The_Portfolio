@@ -6,6 +6,12 @@ body {
   background: white;
 }
 
+.err {
+  border: 3px solid rgb(25, 173, 161);
+  background-color: rgba(10, 38, 131, 0.441);
+  color: white;
+}
+
 .blur {
   filter: blur(9px);
 }

@@ -8,6 +8,7 @@ To update the index.html and style.css with the work section and About Myself se
 To update the index.html and style.css with the contact form section
 A desktop version update the index.html, style.css and index.js.
 To store popup details in a javascript array.
+Updated js to validate the forms before submiting.
 
 ## :hammer: Built With
 
