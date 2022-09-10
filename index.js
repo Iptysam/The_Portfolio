@@ -139,3 +139,18 @@ for (let i = 0; i < seeProject.length; i += 1) {
     closepop.addEventListener('click', pClose);
   });
 }
+
+const mainform = document.getElementById('form-in');
+const validity = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,6}/;
+mainform.addEventListener('submit', (e) => {
+  const emailenter = document.getElementById('email-in').value;
+  const message = document.getElementById('msg');
+  if (!validity.test(emailenter)) {
+    e.preventDefault();
+    message.innerHTML = 'Error: Email Required in LowerCase';
+    message.classList.add('err');
+    return false;
+  }
+  return true;
+});
+
