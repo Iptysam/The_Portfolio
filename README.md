@@ -7,6 +7,7 @@ To update this project to finish mobile version a new feature branch to be creat
 To update the index.html and style.css with the work section and About Myself section.
 To update the index.html and style.css with the contact form section
 A desktop version update the index.html, style.css and index.js.
+To store popup details in a javascript array.
 
 ## :hammer: Built With
 
